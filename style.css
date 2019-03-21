@@ -1,0 +1,86 @@
+header,
+article,
+footer {
+    color: #777;
+    font-family: "Avenir next", Avenir, Segoe UI, Helvetica Neue, Helvetica, Fira Sans, Roboto, Droid Sans, Liberation Sans,sans-serif;
+    margin: 5rem auto;
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+.name {
+    color: #555;
+    font-weight: 700;
+    margin: 0 0.5rem 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.slogan {
+    color: #aaa;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-style: normal;
+}
+
+time {
+    color: #777;
+    font-size: 0.875rem;
+    line-height: 1.15rem;
+    font-style: italic;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 3rem 0 1rem 0;
+}
+
+p {
+    line-height: 1.75rem;
+    font-size: 1.25rem
+    margin: 2rem 0;
+}
+
+a {
+    color: #d14b27;
+    font-style: italic;
+}
+
+::selection {
+    background: #e58d75;
+    color: #fff;
+}
+
+mark {
+    background: rgba(209, 75, 39, 0.25);
+    padding: 0.125rem 0.5rem;
+}
+
+em::selection {
+    background: #d14b27;
+    color: #f1f2f4;
+    font-weight: 900;
+}
+
+ul {
+    margin: 1.5rem 3rem;
+    padding: 0;
+}
+
+li {
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+}
